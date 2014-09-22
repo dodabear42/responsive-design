@@ -1,5 +1,5 @@
 * {
-	border: 1px solid red !important;
+	/*border: 1px solid red !important;*/
 }
 
 body {
@@ -8,10 +8,6 @@ body {
 	height: auto !important;
 	margin: 0;
 	padding: 0;
-}
-
-ul {
-	vertical-align: middle;
 }
 
 li {
@@ -28,32 +24,35 @@ a:link, a:visited {
 header {
 	position: fixed;
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	padding: 10px;
-	border-bottom: 1px solid #cccccc;
-	vertical-align: middle;
-}
 
+
+}
 
 
 nav {
-	text-align: center;
-	vertical-align: middle;
+	text-align: center;	
 	height: 100%;
+	
+
+}
+
+#logo, .nav-links {
+	padding: 10px;
 }
 
 
 
+#site-nav-wrapper, #header-right-wrapper,  #social-media-wrapper, #icon-wrapper, #search-wrapper {
+	height: 100%;
 
-
-#site-nav-wrapper, #header-right-wrapper, #social-media-wrapper, #icon-wrapper, #search-wrapper {
-	height: 40px;
 }
 
 #site-nav-wrapper {
 	position: relative;
 	float: left;
-	top: 0;
+	top: 10px;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	left: 10px;
@@ -64,45 +63,85 @@ nav {
 
 #header-right-wrapper {
 	float: right;
-	text-align: center;
-	vertical-align: middle;
-	right: 0;
+	text-align: right;
+	margin-right: 10px;
 	top: 0;
-	width: 63%;
+	width: 785px;
 	border-left: 1px solid #cccccc;
-}
-
-#logo {
-	margin-top: 5px;
+	border-top: none;
 }
 
 #social-media-wrapper, #icon-wrapper, #search-wrapper {
 	display: inline-block;
+	border-top: none;
+	vertical-align: top;
+}
+
+#social-media-wrapper, #person-icon-wrapper, #i-icon-wrapper {
+	border-right: 1px solid #cccccc;
 }
 
 #social-media-wrapper {
 	width: 450px;
+	height: 50px;
+	padding-top: 5px;
 }
 
-#icon-wrapper {
-	width: 80px;
-}
+
 
 #search-wrapper {
 	width: 220px;
+	display: inline-block;
 }
 
 #site-nav-wrapper ul li, #social-media-wrapper ul li, #search-wrapper ul li {
 	display: inline-block;
 }
 
-#site-nav-wrapper, #social-media-wrapper ul li, #person, #i, #search-wrapper {
+
+
+#social-media-wrapper ul li {
+	padding: 5px;
+}
+
+#icon-wrapper {
+	width: 105px;
+	margin: auto;
+}
+
+#i-icon-wrapper, #person-icon-wrapper {
+	display: inline-block;
+	width: 48px;
+	height: 50px;
+	margin: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#i, #person {
+	padding-top: 10px;
+	margin: auto;
+}
+
+#search-image, #search-box {
+	margin: auto;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#search-box {
+	border-radius: 5px;
+	height: 30px;
+	border: 1px solid #d9e0e2;
+	font-size: 14px;
 	margin-top: 10px;
 }
 
-#logo, .nav-links {
-	padding: 0 10px;
+#search-image {
+	padding-right: 8px;
+	padding-top: 2px;
 }
+
 
 /*^^^^^^^^^^Header^^^^^^^^^^^^*/
 
