@@ -19,8 +19,18 @@ a:link, a:visited {
 	text-decoration: none;
 }
 
+h1 {
+	font-family: 'Titillium', sans-serif;
+	font-size: 700;
+}
+
 h3 {
 	font-size: 16px;
+	text-transform: capitalize;
+}
+
+h5 {
+	color: #ccc;
 	text-transform: capitalize;
 }
 
@@ -29,7 +39,7 @@ h3 {
 header {
 	position: relative;
 	width: 100%;
-	height: 60px;
+	height: 50px;
 	padding: 10px;
 	top: 0;
 }
@@ -154,8 +164,11 @@ nav {
 
 /*^^^^^^^^^^Header^^^^^^^^^^^^*/
 
-/**********section***************/
-
+/**********sidebar***************/
+#sidebar {
+	float: left;
+	width: 330px;
+}
 
 #middle {
 	border-top: 2px solid #cccccc;
@@ -238,9 +251,13 @@ select, #article-options button {
 }
 
 #sidebar-footer {
-	width: 320px;
+	width: 330px;
+	height: 40px;
 	text-transform: capitalize;
 	text-align: center;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	padding-top: 10px;
 }
 
 #sidebar-footer a {
@@ -253,7 +270,55 @@ select, #article-options button {
 	font-size: 12px;
 }
 
-/*^^^^^^^^^^^^section^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^sidebar^^^^^^^^^^^^^^*/
+
+/**************section***************/
+
+section {
+	width: 70%;
+	height: 800px;
+	float: right;
+	margin-left: 330px;
+	max-width: 1564px;
+	
+}
+
+#banner-ad {
+	width: 650px;
+	height: 80px;
+	background-color: #ccc;
+	margin: 20px auto;
+}
+
+#featured-story-wrapper {
+	max-width: 800px;
+	margin: 30px auto 20px auto;
+	border: 1px solid #f0f0f0;
+	background-color: #fff;
+}
+
+#main-featured-story {
+	width: 66%;
+	margin: 20px;
+}
+
+#featured-story-image {
+	width: 475px;
+	height: 200px;
+	background-color: #ccc;
+	margin-bottom: 20px;
+}
+
+.byline {
+	margin-bottom: 20px;
+}
+
+.author {
+	color: #e62e00;
+	text-transform: uppercase;
+}
+
+/*^^^^^^^^^^^^section^^^^^^^^^^^^^^^^^^^*/
 
 /*******small screen responsive design******/
 
