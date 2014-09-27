@@ -23,7 +23,10 @@ h1 {
 	font-family: 'Titillium', sans-serif;
 	font-size: 700;
 }
-
+h2 {
+	color: #fff;
+	text-transform: capitalize;
+}
 h3 {
 	font-size: 16px;
 	text-transform: capitalize;
@@ -227,34 +230,49 @@ select, #article-options button {
 /**************section***************/
 #section-wrapper {
 	float: right;
-	min-width: 62%;
+	width: 800px;
 	max-width: 1564px;
 	background-color: transparent;
 	position: relative;
-	margin: 0 20px 0 0px;
+	margin: auto;
+	padding: 20px;
 }
 #banner-ad {
 	max-width: 650px;
 	height: 80px;
 	background-color: #ccc;
-	margin: 20px auto;
+	margin: 0 auto 20px auto;
 }
 #featured-story-wrapper {
 	max-width: 800px;
-	margin: 30px 20px 20px 20px;
+	margin: auto;
 	border: 1px solid #f0f0f0;
 	background-color: #fff;
 }
 #main-featured-story {
-	width: 66%;
+	width: 65%;
 	margin: 20px;
+	position: relative;
+	float: left;
+}
+#main-featured-story, #related-articles {
+	display: inline-block;
+}
+#related-articles {
+	width: 27%;
+	margin: 20px 20px 20px 0;
+}
+#related-story {
+	margin-bottom: 20px;
+}
+.related-story-image {
+	width: 281px;
+	height: 89px;
+	background-color: #ccc;
 }
 #featured-story-image {
-	width: 300px;
-	height: 200px;
-	max-width: 475px;
-	max-height: 200px;
-	background-color: #ccc;
+	max-width: 520px;
+	height: 245px;
 	margin-bottom: 20px;
 }
 .byline {
@@ -263,6 +281,14 @@ select, #article-options button {
 .author {
 	color: #e62e00;
 	text-transform: uppercase;
+}
+#announcement-head-wrapper {
+	background-color: #e62e00;
+}
+.other-featured-article {
+	width: 30%;
+	height: 60px;
+	background-color: yellow;
 }
 /*******small screen responsive design******/
 @media screen and (max-width: 1150px) {
@@ -295,7 +321,7 @@ select, #article-options button {
 	
 }
 @media screen and (max-width: 480px) {
-	#i-icon-wrapper {
+	#i-icon-wrapper, #banner-ad {
 		display: none;
 	}
 }
