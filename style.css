@@ -33,9 +33,12 @@ h5 {
 	color: #ccc;
 	text-transform: capitalize;
 }
-
+#middle {
+	border-top: 2px solid #cccccc;
+	background-color: blue;
+	height: 100%;
+}
 /***Header**********************************/
-
 header {
 	position: relative;
 	width: 100%;
@@ -122,7 +125,7 @@ nav {
 #follow-menu {
 	height: 100%;
 }
-#search-box, {
+#search-box {
 	border-radius: 3px;
 	height: 30px;
 	border: 1px solid #d9e0e2;
@@ -139,9 +142,7 @@ nav {
 #sidebar {
 	float: left;
 	width: 330px;
-}
-#middle {
-	border-top: 2px solid #cccccc;
+	background-color: #fff;
 }
 #article-options {
 	height: 80px;
@@ -152,7 +153,6 @@ nav {
 	padding: 20px 10px;
 	border-right: 2px solid #f0f0f0;
 }
-
 select, #article-thumb {
 	width: 300px;
 }
@@ -225,24 +225,23 @@ select, #article-options button {
 	font-size: 12px;
 }
 /**************section***************/
-section {
-	width: 70%;
-	height: 800px;
+#section-wrapper {
 	float: right;
-	margin-left: 330px;
+	min-width: 62%;
 	max-width: 1564px;
-	
+	background-color: transparent;
+	position: relative;
+	margin: 0 20px 0 0px;
 }
 #banner-ad {
-	width: 650px;
+	max-width: 650px;
 	height: 80px;
 	background-color: #ccc;
 	margin: 20px auto;
 }
 #featured-story-wrapper {
 	max-width: 800px;
-	min-width: 680px;
-	margin: 30px auto 20px auto;
+	margin: 30px 20px 20px 20px;
 	border: 1px solid #f0f0f0;
 	background-color: #fff;
 }
@@ -251,8 +250,10 @@ section {
 	margin: 20px;
 }
 #featured-story-image {
-	width: 475px;
+	width: 300px;
 	height: 200px;
+	max-width: 475px;
+	max-height: 200px;
 	background-color: #ccc;
 	margin-bottom: 20px;
 }
@@ -274,7 +275,7 @@ section {
 		display: none;
 	}
 }
-@media screen and (min-width: 1001px and max-width: 320px) {
+@media screen and (min-width: 1001px) {
 	#menu-icon-wrapper, #follow-menu {
 		display: none;
 	}
@@ -282,6 +283,9 @@ section {
 @media screen and (max-width: 1000px) {
 	.nav-links, #social-media-wrapper, #sidebar, #search-box {
 		display: none;
+	}
+	#section-wrapper {
+		width: 100%;
 	}
 	#search-wrapper {
 		border-right: 1px solid #f0f0f0;
