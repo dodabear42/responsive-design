@@ -25,30 +25,21 @@ h1 {
 }
 h2 {
 	color: #fff;
-<<<<<<< HEAD
 	text-transform: uppercase;
 	font-size: 16px;
-=======
-	text-transform: capitalize;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 }
 h3 {
 	font-size: 16px;
 	text-transform: capitalize;
 }
-
 h5 {
 	color: #ccc;
 	text-transform: capitalize;
 }
 #middle {
-	border-top: 2px solid #cccccc;
-<<<<<<< HEAD
+	border-top: 2px solid #ccc;
 	background-color: #f0f0f0;
-=======
-	background-color: blue;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
-	height: 100%;
+	height: 1200px;
 }
 /***Header**********************************/
 header {
@@ -162,12 +153,10 @@ nav {
 }
 #article-options {
 	height: 80px;
-	border-bottom: 2px solid #f0f0f0;
 }
 #article-options, #thumb-menu {
 	width: 310px;
 	padding: 20px 10px;
-	border-right: 2px solid #f0f0f0;
 }
 select, #article-thumb {
 	width: 300px;
@@ -175,7 +164,6 @@ select, #article-thumb {
 select {
 	color: #fff;
 	background-color: #e62e00;
-	
 	border: 1px solid #cf2900;
 	border-radius: 3px;
 }
@@ -201,13 +189,8 @@ select, #article-options button {
 	border-radius: 0 3px 3px 0;
 	border-left: none;
 }
-#thumb-menu {
-	padding: 0 10px;
-}
 #thumb-menu ul li {
 	height: 70px;
-	border-bottom: 1px solid #ccc;
-	border-right: 1px solid #ccc;
 	width: 320px;
 	padding: 10px 0;
 }
@@ -229,8 +212,6 @@ select, #article-options button {
 	height: 40px;
 	text-transform: capitalize;
 	text-align: center;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
 	padding-top: 10px;
 }
 #sidebar-footer a {
@@ -243,19 +224,10 @@ select, #article-options button {
 }
 /**************section***************/
 #section-wrapper {
-<<<<<<< HEAD
 	max-width: 1280px;
 	background-color: transparent;
 	position: relative;
 	margin: 0 auto 0 330px;
-=======
-	float: right;
-	width: 800px;
-	max-width: 1564px;
-	background-color: transparent;
-	position: relative;
-	margin: auto;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	padding: 20px;
 }
 #banner-ad {
@@ -267,19 +239,12 @@ select, #article-options button {
 #featured-story-wrapper {
 	max-width: 800px;
 	margin: auto;
-<<<<<<< HEAD
 	border: 1px solid #ccc;
-=======
-	border: 1px solid #f0f0f0;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	background-color: #fff;
 }
 #main-featured-story {
 	width: 65%;
-<<<<<<< HEAD
 	height: 400px;
-=======
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	margin: 20px;
 	position: relative;
 	float: left;
@@ -290,10 +255,8 @@ select, #article-options button {
 #related-articles {
 	width: 27%;
 	margin: 20px 20px 20px 0;
-<<<<<<< HEAD
 	height: 400px;
-=======
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
+	float: right;
 }
 #related-story {
 	margin-bottom: 20px;
@@ -315,7 +278,6 @@ select, #article-options button {
 	color: #e62e00;
 	text-transform: uppercase;
 }
-<<<<<<< HEAD
 #announcement-wrapper {
 	width: 100%;
 	height: 50px;
@@ -327,10 +289,6 @@ select, #article-options button {
 	text-align: center;
 	vertical-align: middle;
 	float: left;
-=======
-#announcement-head-wrapper {
-	background-color: #e62e00;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 }
 .other-featured-article {
 	width: 30%;
@@ -358,11 +316,8 @@ select, #article-options button {
 		display: none;
 	}
 	#section-wrapper {
-<<<<<<< HEAD
 		margin: 0 auto;
-=======
 		width: 100%;
->>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	}
 	#search-wrapper {
 		border-right: 1px solid #f0f0f0;
