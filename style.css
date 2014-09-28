@@ -25,8 +25,12 @@ h1 {
 }
 h2 {
 	color: #fff;
+<<<<<<< HEAD
 	text-transform: uppercase;
 	font-size: 16px;
+=======
+	text-transform: capitalize;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 }
 h3 {
 	font-size: 16px;
@@ -39,7 +43,11 @@ h5 {
 }
 #middle {
 	border-top: 2px solid #cccccc;
+<<<<<<< HEAD
 	background-color: #f0f0f0;
+=======
+	background-color: blue;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	height: 100%;
 }
 /***Header**********************************/
@@ -235,10 +243,19 @@ select, #article-options button {
 }
 /**************section***************/
 #section-wrapper {
+<<<<<<< HEAD
 	max-width: 1280px;
 	background-color: transparent;
 	position: relative;
 	margin: 0 auto 0 330px;
+=======
+	float: right;
+	width: 800px;
+	max-width: 1564px;
+	background-color: transparent;
+	position: relative;
+	margin: auto;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	padding: 20px;
 }
 #banner-ad {
@@ -250,12 +267,19 @@ select, #article-options button {
 #featured-story-wrapper {
 	max-width: 800px;
 	margin: auto;
+<<<<<<< HEAD
 	border: 1px solid #ccc;
+=======
+	border: 1px solid #f0f0f0;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	background-color: #fff;
 }
 #main-featured-story {
 	width: 65%;
+<<<<<<< HEAD
 	height: 400px;
+=======
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	margin: 20px;
 	position: relative;
 	float: left;
@@ -266,7 +290,10 @@ select, #article-options button {
 #related-articles {
 	width: 27%;
 	margin: 20px 20px 20px 0;
+<<<<<<< HEAD
 	height: 400px;
+=======
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 }
 #related-story {
 	margin-bottom: 20px;
@@ -288,6 +315,7 @@ select, #article-options button {
 	color: #e62e00;
 	text-transform: uppercase;
 }
+<<<<<<< HEAD
 #announcement-wrapper {
 	width: 100%;
 	height: 50px;
@@ -299,6 +327,10 @@ select, #article-options button {
 	text-align: center;
 	vertical-align: middle;
 	float: left;
+=======
+#announcement-head-wrapper {
+	background-color: #e62e00;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 }
 .other-featured-article {
 	width: 30%;
@@ -326,7 +358,11 @@ select, #article-options button {
 		display: none;
 	}
 	#section-wrapper {
+<<<<<<< HEAD
 		margin: 0 auto;
+=======
+		width: 100%;
+>>>>>>> f523675c9229f243db8cc295d22f189e592063d8
 	}
 	#search-wrapper {
 		border-right: 1px solid #f0f0f0;
