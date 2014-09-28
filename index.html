@@ -16,29 +16,30 @@
 						<div id="site-nav-wrapper">
 							<ul>
 								<li>
+									<div id="menu-icon-wrapper">
+										<img id="menu-icon" src="menu.png" alt="menu icon">
+									</div>
+								</li>	
+								<li>
 									<a class="logo" href="index.html">
 										<img src="logo.png">
 									</a>
 								</li>
 								<li>
-									<a class="nav-links" href="#">
-										blog
-									</a>
-								</li>
-								<li>
-									<a class="nav-links" href="#">
-										conference
-									</a>
-								</li>
-								<li>
-									<a class="nav-links" href="#">
-										deals
-									</a>
-								</li>
-								<li>
-									<a class="nav-links" href="#">
-										pro
-									</a>
+									<div class="nav-links">
+										<a href="#">
+											blog
+										</a>
+										<a href="#">
+											conference
+										</a>
+										<a class="nav-links" href="#">
+											deals
+										</a>
+										<a class="nav-links" href="#">
+											pro
+										</a>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -47,22 +48,34 @@
 							<div id="social-media-wrapper">
 								<ul>
 									<li>
-										facebook
+										<div id="facebook-icon">
+											facebook
+										</div>
 									</li>
 									<li>
-										twitter
+										<div id="twitter-icon">
+											twitter
+										</div>
 									</li>
 									<li>
-										google+
+										<div id="google+-icon">
+											google+
+										</div>
 									</li>
 									<li>
-										youtube
+										<div id="youtube-icon">
+											youtube
+										</div>
 									</li>
 									<li>
-										pinterest
+										<div id="pinterest-icon">
+											pinterest
+										</div>
 									</li>
 									<li>
-										rss
+										<div id="rss-icon">
+											rss
+										</div>
 									</li>
 									<li>
 										<img id="more-arrow" src="arrow.png">
@@ -81,6 +94,10 @@
 								<img id="search-image" src="search.png">
 							
 								<input id="search-box" placeholder="Search..." type="text">
+							</div>
+							<div id="follow-menu">
+								Follow
+								<img src="arrow.png" alt="arrow image">
 							</div>
 						</div>
 					</li>
@@ -166,14 +183,13 @@
 					</ul>
 				</div>
 			</div>
-			<section>
+			<div id="section-wrapper">
 				<div id="banner-ad">
 					advertisement
 				</div>
 				<div id="featured-story-wrapper">
 					<div id="main-featured-story">
-						<div id="featured-story-image">
-						</div>
+						<img class="featured-story-image" src="placeholder.jpg">
 						<div class="byline">
 							<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
 						</div>
@@ -181,34 +197,97 @@
 							<h1>Story Title</h1>
 						</div>
 						<div id="featured-story-intro">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 						</div>
 					</div>
 					<div id="related-articles">
+						<ul>
+							<li>
+								<div class="related-story">
+									<img class="related-story-image" src="placeholder.jpg">
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="related-story-title">
+										<h1>Story Title</h1>
+									</div>				
+								</div>
+							</li>
+							<li>
+								<div class="related-story">
+									<img class="related-story-image" src="placeholder.jpg">
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="related-story-title">
+										<h1>Story Title</h1>
+									</div>				
+								</div>
+							</li>
+						</ul>	
 					</div>
-					<div id="announcement">
+					<div id="announcement-wrapper">
+						<div id="annoucement-head-wrapper">
+							<h2>announcement</h2>
+						</div>
+						<div id="announcement-details-wrapper">
+							<p>Sed ut perspiciatis unde omnis iste natus error.</p>
+						</div>
 					</div>
 					<div id="related-featured-articles">
 						<ul>
 							<li>
 								<div class="other-featured-article">
-								</div>
-							</li>
-							<li>
-								<div class="o ther-featured-article">
+									<div class="other-featured-story-image">
+									</div>
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="other-featured-story-title">
+										<h1>Story Title</h1>
+									</div>
 								</div>
 							</li>
 							<li>
 								<div class="other-featured-article">
+									<div class="other-featured-story-image">
+									</div>
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="other-featured-story-title">
+										<h1>Story Title</h1>
+									</div>			
 								</div>
 							</li>
 							<li>
 								<div class="other-featured-article">
+									<div class="other-featured-story-image">
+									</div>
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="other-featured-story-title">
+										<h1>Story Title</h1>
+									</div>			
+								</div>
+							</li>
+							<li>
+								<div class="other-featured-article">
+									<div class="other-featured-story-image">
+									</div>
+									<div class="byline">
+										<h5>by <span class="author">Joe Shmoe</span>&#8212;mm/dd/yyyy</h5>
+									</div>
+									<div class="other-featured-story-title">
+										<h1>Story Title</h1>
+									</div>
 								</div>
 							</li>
 						</ul>
 					</div>
 				</div>
-			</section>
+			</div>
 		</div>
 		<footer>
 		</footer>
